@@ -1,0 +1,81 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+    background-color: #154360 ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+	font-family: Century Gothic;
+}
+.contact-title{
+	margin-top: 100px;
+	color: #fff;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+
+}
+
+.contact-title h1{
+	font-size: 32px;
+	line-height: 10px;
+}
+
+.contact-title h2{
+	font-size: 16px;	
+}
+
+form{
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+
+}
+
+.form-control {
+	width: 600px;
+	background:transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+input{
+	height: 45px;
+
+} 
+form .submit{
+	background: #ff5722;
+	border-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+
+}
+
+form .submit: hover{
+background-color: #f44336;
+cursor: pointer;
+}
+
+.button{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);}
+
+.btn{
+	border: 1px solid#FFF;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease}
+
+.btn:hover{
+	background-color: #FFF;
+	color: black;
